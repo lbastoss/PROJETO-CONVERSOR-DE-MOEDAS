@@ -102,7 +102,7 @@ section {
     gap:4px;
 }
 
-.currency-value {
+.currency-value, .currency-value-to-convert {
     color: #555;
     line-height: 18px;
     font-size: 20px;
@@ -117,3 +117,4 @@ section {
     font-weight: 400;
 
 }
+
