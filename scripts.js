@@ -49,23 +49,26 @@ function convertValues() {
 
 function changeCurrency() {
     const currencyName = document.getElementById ("currency-name")
-
+    const currencyImage = document.querySelector(".currency-img")
 
     if (currencySelect.value == "dolar") {
+        currencyName.innerHTML = "Dólar Americano"
+        currencyImage.src = "./Assets/usa.png"
         
-        currencyName.innerHTML = 'Dólar Americano'
-    }
+    } 
 
     if (currencySelect.value == "euro") {
-        currencyName.innerHTML == "Euro"
-
-    }
+        currencyName.innerHTML = "Euro"
+        currencyImage.src = "./Assets/euro.png"
+    } 
+    
 
 }
 
 
 currencySelect.addEventListener("change", changeCurrency)
 convertButton.addEventListener("click", convertValues)
+
 
 
 
