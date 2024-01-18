@@ -62,7 +62,7 @@ function changeCurrency() {
         currencyImage.src = "./Assets/euro.png"
     } 
     
-
+    convertValues()
 }
 
 
