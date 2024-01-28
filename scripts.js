@@ -11,8 +11,8 @@ function convertValues() {
 
 
     const dolarToday = 4.92
-    const EuroToday = 5.37
-    const BitcoinToday = 204.29
+    const EuroToday = 5.34
+    const BitcoinToday = 208.45
 
 
     if (currencySelect.value == "dolar") {
@@ -107,6 +107,15 @@ function changeCurrency() {
         currencyImageF.src = "./Assets/br.png"
     }
 
+    if (currencySelectDe.value == "euro") {
+        currencyNameF.innerHTML = "Euro"
+        currencyImageF.src = "./Assets/euro.png"
+    }
+
+    if (currencySelectDe.value == "btc") {
+        currencyNameF.innerHTML = "Bitcoin"
+        currencyImageF.src = "./Assets/bitcoin.png"
+    }
     convertValues()
 }
 
