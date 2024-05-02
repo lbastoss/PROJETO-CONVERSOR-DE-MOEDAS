@@ -121,3 +121,37 @@ section {
 .currency-select-de {
     appearance: none;
 }
+
+.links-footer {
+    display: flex;
+    gap: 10px;
+   
+   
+}
+
+.fa-brands:hover {
+    opacity: .8;
+}
+
+.fa-brands:active {
+    opacity: .4;
+}
+
+.fa-brands {
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: auto;
+    padding: 20px;
+}
+
+.develop {
+    color: black;
+    font-weight: bold;
+}
