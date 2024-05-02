@@ -27,25 +27,24 @@ In this project, we are using JavaScript functions to convert Brazilian currency
 <p>
 
 <div>
- <img alt="Home Scren" src="https://github.com/lbastoss/Project-Hamburgueria-DevClub/blob/main/img/home%20screen.png" width="500" />
-  <figcaption> <p bold >Home Screen </p> </figcaption>
+ <img alt="Real-BTC" src="https://github.com/lbastoss/PROJETO-CONVERSOR-DE-MOEDAS/blob/main/Assets/real-btc.png" width="500" />
+  <figcaption> <p bold >Convertendo de Real para BTC </p> </figcaption>
  
- <img alt="forEach" src="https://github.com/lbastoss/Project-Hamburgueria-DevClub/blob/main/img/button%20forEach.png" width="500" />
-  <figcaption> <p>Function forEach</p> </figcaption>
+ <img alt="Real-Dólar" src="https://github.com/lbastoss/PROJETO-CONVERSOR-DE-MOEDAS/blob/main/Assets/real-dolar.png" width="500" />
+  <figcaption> <p>Convertendo de Real para Dólar</p> </figcaption>
 
 
-<img alt="map" src="https://github.com/lbastoss/Project-Hamburgueria-DevClub/blob/main/img/button%20map.png" width="500" />
-  <figcaption> <p>Function map</p> </figcaption>
+<img alt="Real-Euro" src="https://github.com/lbastoss/PROJETO-CONVERSOR-DE-MOEDAS/blob/main/Assets/real-euro.png" width="500" />
+  <figcaption> <p>Convertendo de Real para Euro</p> </figcaption>
 
-  <img alt="reduce" src="https://github.com/lbastoss/Project-Hamburgueria-DevClub/blob/main/img/button%20reduce.png" width="500" />
-  <figcaption> <p>Function reduce</p> </figcaption>
+  <img alt="Real-Libra" src="https://github.com/lbastoss/PROJETO-CONVERSOR-DE-MOEDAS/blob/main/Assets/real-libra.png" width="500" />
+  <figcaption> <p>Convertendo de Real para Libra</p> </figcaption>
 
-<img alt="filter" src="https://github.com/lbastoss/Project-Hamburgueria-DevClub/blob/main/img/button%20filter.png" width="500" />
-  <figcaption> <p>Function filter</p> </figcaption>
+
 
   </div>
   
 <br>
 <br>
  
-Deploy : https://lbastoss.github.io/Project-Hamburgueria-DevClub/
+Deploy : https://lbastoss.github.io/PROJETO-CONVERSOR-DE-MOEDAS/
