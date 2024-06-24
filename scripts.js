@@ -4,16 +4,19 @@ const currencySelect = document.querySelector(".currency-select")
 
 
 
-function convertValues() {
+    const convertValues = async () => {
     const inputCurrencyValue = document.querySelector(".input-currency").value
     const currencyValueToConvert = document.querySelector(".currency-value-to-convert") // Valor em real
     const currencyValueConverted = document.querySelector(".currency-value") // outras moedas
 
 
-    const dolarToday = 4.92
-    const EuroToday = 5.34
-    const BitcoinToday = 208.45
-    const Libratoday = 6.25
+   const data = await fetch("https://economia.awesomeapi.com.br/last/USD-BRL,EUR-BRL,BTC-BRL").then(response => response.json())
+  
+   const dolar = data.USDBRL.high
+   const euro = data.EURBRL.high
+   const BTC = data.BTCBRL.high
+   
+
 
 
     if (currencySelect.value == "dolar") {
@@ -22,7 +25,7 @@ function convertValues() {
         currencyValueConverted.innerHTML = new Intl.NumberFormat("en-US", {
             style: "currency",
             currency: "USD"
-        }).format(inputCurrencyValue / dolarToday)
+        }).format(inputCurrencyValue / dolar)
 
 
     }
@@ -35,7 +38,7 @@ function convertValues() {
         currencyValueConverted.innerHTML = new Intl.NumberFormat("de-DE", {
             style: "currency",
             currency: "EUR"
-        }).format(inputCurrencyValue / EuroToday)
+        }).format(inputCurrencyValue / euro)
 
     }
 
@@ -47,7 +50,7 @@ function convertValues() {
         currencyValueConverted.innerHTML = new Intl.NumberFormat("pt-BR", {
             style: "currency",
             currency: "BRL"
-        }).format(inputCurrencyValue * dolarToday)
+        }).format(inputCurrencyValue * dolar)
     }
 
   
@@ -62,19 +65,12 @@ function convertValues() {
         currencyValueConverted.innerHTML = new Intl.NumberFormat("pt-BR", {
             style: "currency",
             currency: "BTC"
-        }).format(inputCurrencyValue / BitcoinToday)
+        }).format(inputCurrencyValue / BTC)
     }
 
     
 
-    if (currencySelect.value == "libra") {
-        // se o select estiver o valor em Bitcoin , entre aqui 
-        currencyValueConverted.innerHTML = new Intl.NumberFormat("en-UK", {
-            style: "currency",
-            currency: "GBP"
-        }).format(inputCurrencyValue / Libratoday)
-    }
-
+    
 }
 
 
