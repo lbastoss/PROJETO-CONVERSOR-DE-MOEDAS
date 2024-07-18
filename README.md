@@ -7,22 +7,24 @@
 no qual aprendemos sobre algumas funções e como podem ser utilizadas na pratica.
 <br>
   <br>
-Nesse projeto, estamos usando as funções em JavaScript para converter a moeda brasileira em outras moedas ao apertar o botão converter. </h2>
+Nesta aplicação, estamos usando as funções em JavaScript para converter a moeda brasileira em outras moedas ao apertar o botão converter de forma automática usando uma API que obtêm as informações das moedas em tempo real. </h2>
 <br>
 <br>
 
 [en-US]<h1 align="center">
  Currency Converter</h1>
 
-<h2> This was a project that I learned about at <a href="https://rodolfomori.com.br/devclub">DevClub</a>, technologies were used
-  HTML, CSS and JavaScript,
-in which we learn about some functions and how they can be used in practice.
-<br>
-<br>
-In this project, we are using JavaScript functions to convert Brazilian currency into other currencies by pressing the convert button.</h2>
-<br>
-<br>
+<h1 align="center">
+  Currency Converter</h1>
 
+<h2> This was a project that I learned at <a href="https://rodolfomori.com.br/devclub">DevClub</a>, they were used as technologies
+  HTML, CSS and JavaScript, 
+there is no way to learn about some functions and how they can be used in practice.
+<br>
+  <br>
+In this application, we are using JavaScript functions to convert Brazilian currency into other currencies by pressing the convert button automatically using an API that obtains currency information in real time. </h2>
+<br>
+<br>
 
 <p>
 
@@ -37,8 +39,7 @@ In this project, we are using JavaScript functions to convert Brazilian currency
 <img alt="Real-Euro" src="https://github.com/lbastoss/PROJETO-CONVERSOR-DE-MOEDAS/blob/main/Assets/real-euro.png" width="500" />
   <figcaption> <p>Convertendo de Real para Euro</p> </figcaption>
 
-  <img alt="Real-Libra" src="https://github.com/lbastoss/PROJETO-CONVERSOR-DE-MOEDAS/blob/main/Assets/real-libra.png" width="500" />
-  <figcaption> <p>Convertendo de Real para Libra</p> </figcaption>
+  
 
 
 
